@@ -22,7 +22,7 @@ public class MyApplication extends Application implements ClickListener{
 	UsuarioForm formUser = null;
 	 Button btnReset = null;
 	 Button btInsertar = null;
-	
+	private String saludo = "hola";
 	
 	@Autowired
     ServicioUsuarios servicioUsuarios;
